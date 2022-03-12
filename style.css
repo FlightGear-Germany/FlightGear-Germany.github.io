@@ -1,0 +1,133 @@
+@keyframes scale {
+0% {padding-right: 10px}
+50% {padding-right: 50px}
+100% {padding-right: 10px}
+}
+
+@keyframes scale2 {
+0% {position: relative;
+      top: 0px}
+50% {position: relative;
+      top: -10px}
+100% {position: relative;
+      top: 0px}
+}
+
+@keyframes img {
+0% {position: relative;
+      top: 0px}
+50% {position: relative;
+      top: -10px}
+100% {position: relative;
+      top: 0px}
+}
+
+.body {
+  background-color: #959595;
+}
+
+.heading {
+  font-family: Arial;
+  text-align: center;
+  text-decoration: underline;
+  color: #000;
+
+}
+
+.text {
+  font-family: Arial;
+  color: #000;
+
+}
+
+.img {
+  height: 200px;
+  width:auto;
+}
+
+.img:hover {
+animation-name: img;
+animation-duration: 1s;
+animation-iteration-count: infinite;
+cursor: pointer;
+}
+
+
+.icons {
+  height: 100px;
+  width: auto;
+}
+
+#dc {
+  float: right;
+}
+
+#dc:hover {
+  animation-name: img;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+#fg:hover {
+  animation-name: img;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
+}
+
+#fg {
+  float: left;
+}
+
+.link {
+  font-family: Arial;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  background-color: coral;
+  border-left: 3px solid red;
+}
+
+.link:hover {
+  animation-name: scale;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  background-color: #005500;
+  border-left: 3px solid green;
+}
+
+.links {
+  margin-top: 30px;
+}
+
+.link2 {
+  text-align: center;
+  font-family: Arial;
+  text-decoration: none;
+  color: #000;
+}
+
+.link2:hover {
+  animation-name: scale2;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  color: #005500;
+}
+
+.text2 {
+  text-align: center;
+  font-family: Arial;
+  color: #000;
+}
+
+
+#button1 {
+  text-align: center;
+}
+
+#button {
+  padding: 2px;
+  background-color: black;
+  border: 0px;
+}
